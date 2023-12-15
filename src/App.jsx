@@ -4,6 +4,7 @@ import SignUpPage from "./pages/auth/SignUpPage";
 import ForgetPasswordPage from "./pages/auth/ForgetPasswordPage";
 import ProfilePage from "./pages/ProfilePage";
 import Error404 from "./pages/Error404";
+import Dashboard from "./pages/dashboard/Dashboard.page"
 // import PricingPage from "./pages/pricing/PricingPage";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<SignInPage />} />
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/forget" element={<ForgetPasswordPage />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/*" element={<Error404 />} />
           {/* <Route path="/pricing" element={<PricingPage />} /> */}
