@@ -37,7 +37,7 @@ export const layoutAndPages = [
       {
         dotIcon: <LuDot className="text-3xl" />,
         title: "Accounts",
-        url: "/account",
+        url: "/generalSettings",
       },
       {
         dotIcon: <LuDot className="text-3xl" />,

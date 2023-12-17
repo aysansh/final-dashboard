@@ -4,7 +4,8 @@ import SignUpPage from "./pages/auth/SignUpPage";
 import ForgetPasswordPage from "./pages/auth/ForgetPasswordPage";
 import ProfilePage from "./pages/ProfilePage";
 import Error404 from "./pages/Error404";
-import Dashboard from "./pages/dashboard/Dashboard.page"
+import Dashboard from "./pages/dashboard/Dashboard.page";
+import GeneralSettingsPage from "./pages/generalSettings/GeneralSettings.Page";
 // import PricingPage from "./pages/pricing/PricingPage";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/forget" element={<ForgetPasswordPage />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/generalSettings" element={<GeneralSettingsPage />} />
           <Route path="/*" element={<Error404 />} />
           {/* <Route path="/pricing" element={<PricingPage />} /> */}
         </Routes>
